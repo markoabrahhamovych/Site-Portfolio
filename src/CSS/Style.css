@@ -1,0 +1,250 @@
+
+/* General settings */
+* {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    padding: 0 248px;
+}
+/*  */
+
+/* Menu and header */
+.menu {
+    min-height: 97px;
+}
+ .menu .menu_wrapper ul {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #828282;
+    padding: 32px 0;
+    list-style-type: none;
+}
+.menu .menu_wrapper ul li a{
+    color: #828282;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu .menu_wrapper ul li a:hover{
+    color: #000000;
+    transition: 0.8s;
+}
+/*  */
+
+
+
+
+/* Promo and title */
+.promo {
+    
+    margin-top: 40px;
+    min-height: 188px;
+}
+.promo_wrapper {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo .promo_logo {
+    color: #070707;
+    font-size: 47.3392px;
+    font-weight: bold;
+}
+.promo .promo_main {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    color: #070707;
+}
+.promo .promo_language {
+   margin:0;
+   padding: 0;
+    transform: rotate(-90deg);
+    font-size: 16px; 
+    color: #828282;
+    font-weight: bold;
+}
+.promo .promo_language span {
+    color: #070707;
+}
+.promo_screen{
+    width: 100%;
+    margin: 0;
+}
+/*  */
+
+
+
+
+/* About Me description */
+.about_me {
+    min-height: 506px;
+    background: #F6F6F6;
+    margin-top: 104px;
+    position: relative;
+    
+}
+.about_me_wrapper{
+    padding-top: 120px;
+    padding-bottom: 107px;
+    text-align: center;
+    color: #070707;
+}
+
+.about_me .about_me_header {
+    font-size: 34px;
+ font-weight: 700;
+}
+.about_me .about_me_descr {
+    padding-top: 17px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+   
+}
+/*   */
+
+
+
+/* Programs and me experiese */
+.programs {
+    min-height: 615px; 
+    color: #070707;
+     text-align: center;
+}
+.programs_header {
+    padding-top: 91px;
+    font-size: 34px;
+    font-weight: bold;
+   
+    
+}
+.programs_subheader {
+    padding-top: 70px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.programs .programs_icons {
+    margin-top: 94px; 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row; 
+
+}
+
+.programs .programs_icons .program_descr {
+   padding-top: 22px;
+   text-align: center; 
+   font-size: 14px;
+   color: #828282;
+   padding-bottom: 41px;
+}
+
+#fig {
+    padding-bottom: 57px;
+}
+.portfolio {
+    min-height: 2253px;
+    background: #F6F6F6;
+    padding-bottom: 96px;
+}
+.portfolio .porfolio_header {
+    font-weight: bold;
+    padding-top: 112px;
+    font-size: 34px;
+    text-align: center;
+}
+
+.portfolio .portfolio_project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 99px;
+}
+
+.portfolio .portfolio_project .portfolio_descr {
+    padding-top: 43px;
+    
+    font-size: 18px;
+    font-weight: 500;
+}
+.portfolio .portfolio_project .portfolio_descr a {
+    color: #070707;
+}
+/*  */
+
+
+/* Footer and social media */
+footer {
+    min-height: 622px;
+    text-align: center;
+    color: #070707;
+    
+}
+footer .contact {
+    padding-top: 114px;
+    font-size: 34px;
+    font-weight: bold;
+   
+}
+footer .contact_subheader {
+    padding-top: 20px;
+    font-size: 18px;
+}
+footer .contact_btn button {
+    margin-top: 30px;
+    color: #FFFFFF; 
+    font-size: 22px;
+   padding:13px 29px ;
+   background: #070707;
+    border-radius: 38%; 
+}
+footer .social_media {
+    display: block;
+    margin: 0 auto;
+
+}
+footer .social_media i{
+    position: relative;
+   right: 30px;
+    margin-top: 86px;
+   
+    font-size: 40px;
+     padding-left: 61px; 
+   
+}
+footer .social_media i:last-child{
+    padding-left: none; 
+}
+footer .footer_subheader {
+    margin-top: 45px;
+    color: #828282;
+    font-weight: 500;
+    font-size: 14px;
+}
+/*  */
+
+
+/* Responsiv settings */
+.mobile_img{
+display: none;
+}
+
+.xs-hidden {
+    display: none;
+}
+
+#visible {
+    display: none;
+}
+nav {
+    display: none;
+}
+/*  */
